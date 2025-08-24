@@ -2,6 +2,13 @@
 
 **Last Updated:** YYYY-MM-DD HH:MM CST
 
+---
+## 0. Situational Briefing (For Agent Context)
+- **Project Vision:** [A single, concise sentence describing the project's ultimate goal.]
+- **Current Sprint Goal:** [The single, measurable objective for the current work cycle.]
+- **My Next Action:** [The immediate, concrete next step the Orchestrator needs to take.]
+---
+
 ## 1. Project Vision
 A single, concise sentence describing the project's ultimate goal.
 
