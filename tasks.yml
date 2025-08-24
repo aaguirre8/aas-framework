@@ -1,0 +1,22 @@
+sprint_goal: "Implement the core user authentication flow."
+tasks:
+  - task_id: "TASK-001"
+    description: "Create the database migration for the 'users' table."
+    agent: "Backend Engineer"
+    status: "Pending" # Options: Pending, In Progress, Blocked, In Review, Complete
+    acceptance_criteria:
+      - "A 'users' table is created."
+      - "Table includes fields: id (UUID), email (String, unique), hashed_password (String)."
+      - "A 'created_at' timestamp field is present."
+    dependencies: [] # List of other task_ids that must be complete first.
+
+  - task_id: "TASK-002"
+    description: "Implement the POST /register endpoint."
+    agent: "Backend Engineer"
+    status: "Pending"
+    acceptance_criteria:
+      - "Endpoint accepts an email and password."
+      - "Password is correctly hashed using bcrypt before storing."
+      - "Returns a JWT access token upon successful registration."
+    dependencies:
+      - "TASK-001"
